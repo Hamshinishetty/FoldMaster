@@ -19,6 +19,21 @@
       <button onclick="recognizeImage()">Recognize Origami</button>
     </div>
    <!-- ...Remaining HTML code... -->
+
+   <video id="video" autoplay playsinline></video>
+<button onclick="startCamera()">Turn On Camera</button>
+
+<script>
+    async function startCamera() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+            const videoElement = document.getElementById('video');
+            videoElement.srcObject = stream;
+        } catch (error) {
+            console.error('Error accessing camera:', error);
+        }
+    }
+</script>
   
     <div class="result">
       <h2>Recognition Result:</h2>
