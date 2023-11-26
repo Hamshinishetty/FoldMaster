@@ -9,7 +9,7 @@ body {
   .start-page {
     height: 100vh;
     background-color: #f3f3f3; /* Fallback color */
-    background-image: url(''); /* Replace with your origami background image */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/921/270/334/minimalism-red-low-poly-abstract-wallpaper-preview.jpg'); /* Replace with your origami background image */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -21,16 +21,20 @@ body {
     margin: 20px;
     text-align: left;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 20px;
   }
   
   h1 {
     font-size: 3rem;
     margin-bottom: 10px;
+    font-family: cursive;
   }
   
   p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .get-started-button {
