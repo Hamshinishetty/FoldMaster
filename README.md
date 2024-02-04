@@ -1,1 +1,1 @@
-"Foldmaster is the ultimate origami companion app that scans your folded creations, identifies issues, and guides you through step-by-step tutorials tailored to perfect your model. Elevate your origami skills with precision and ease, making every fold a masterpiece.
+Foldmaster is the ultimate origami companion app that scans your folded creations, identifies issues, and guides you through step-by-step tutorials tailored to perfect your model. Elevate your origami skills with precision and ease, making every fold a masterpiece.
